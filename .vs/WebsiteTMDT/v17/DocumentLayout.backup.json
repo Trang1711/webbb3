@@ -1,0 +1,912 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\views\\account\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:views\\account\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\views\\shared\\_layoutproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:views\\shared\\_layoutproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\views\\shared\\productitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:views\\shared\\productitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\views\\product\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:views\\product\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\views\\shared\\_productlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:views\\shared\\_productlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\views\\shared\\_searchpanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:views\\shared\\_searchpanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\views\\shared\\components\\categories\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:views\\shared\\components\\categories\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\views\\shared\\components\\cartquick\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:views\\shared\\components\\cartquick\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\views\\home\\hotdeal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:views\\home\\hotdeal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\views\\checkout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:views\\checkout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\data\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:data\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\data\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:data\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\views\\shared\\components\\cart\\cartpanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:views\\shared\\components\\cart\\cartpanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\views\\shared\\_admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:views\\shared\\_admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\data\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:data\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\views\\shared\\_hotdealproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:views\\shared\\_hotdealproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\viewcomponents\\cartviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:viewcomponents\\cartviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\views\\shared\\components\\review\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:views\\shared\\components\\review\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\viewcomponents\\reviewviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:viewcomponents\\reviewviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\models\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:models\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\viewmodels\\productsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:viewmodels\\productsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\viewmodels\\cartsummaryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:viewmodels\\cartsummaryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\viewcomponents\\cartquickviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:viewcomponents\\cartquickviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\data\\websitecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:data\\websitecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\viewmodels\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:viewmodels\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\views\\home\\pagenotfound.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:views\\home\\pagenotfound.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\wwwroot\\cart.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:wwwroot\\cart.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\helpers\\mysetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:helpers\\mysetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\helpers\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:helpers\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|d:\\cmcu-hk5\\cn_lap_trinh_web\\websitetmdt\\websitetmdt.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{AC6314BC-CF27-4A96-B5D3-A78D61F63E26}|WebsiteTMDT.csproj|solutionrelative:websitetmdt.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 197,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1280413432:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EditProfile.cshtml",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Account\\EditProfile.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\EditProfile.cshtml",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Account\\EditProfile.cshtml*",
+              "RelativeToolTip": "Views\\Account\\EditProfile.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T01:36:29.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-04T07:53:13.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T13:17:13.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Product\\Detail.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Detail.cshtml",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Product\\Detail.cshtml",
+              "RelativeToolTip": "Views\\Product\\Detail.cshtml",
+              "ViewState": "AgIAAJABAAAAAAAAAAAAAB4BAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-24T03:27:03.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAwD0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T13:59:05.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductItem.cshtml",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Shared\\ProductItem.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\ProductItem.cshtml",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Shared\\ProductItem.cshtml",
+              "RelativeToolTip": "Views\\Shared\\ProductItem.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-04T03:12:56.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_SearchPanel.cshtml",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Shared\\_SearchPanel.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_SearchPanel.cshtml",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Shared\\_SearchPanel.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_SearchPanel.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-04T05:53:19.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAAJQAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-04T01:55:46.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_LayoutProduct.cshtml",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Shared\\_LayoutProduct.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutProduct.cshtml",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Shared\\_LayoutProduct.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LayoutProduct.cshtml",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAAAGkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T13:24:20.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAYwH4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T07:50:04.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAC4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T13:17:18.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ProductList.cshtml",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Shared\\_ProductList.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ProductList.cshtml",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Shared\\_ProductList.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ProductList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-04T04:18:48.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Footer.cshtml",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Shared\\_Footer.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Footer.cshtml",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Shared\\_Footer.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Footer.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAFcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-04T15:29:21.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Shared\\Components\\Categories\\Default.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\Categories\\Default.cshtml",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Shared\\Components\\Categories\\Default.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\Categories\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-04T03:31:33.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Index.cshtml",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-24T07:44:39.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cart\\Index.cshtml",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "Views\\Cart\\Index.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACsAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-24T15:02:35.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Checkout\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Checkout\\Index.cshtml",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Checkout\\Index.cshtml",
+              "RelativeToolTip": "Views\\Checkout\\Index.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFYAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-04T13:20:00.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "HotDeal.cshtml",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Home\\HotDeal.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\HotDeal.cshtml",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Home\\HotDeal.cshtml",
+              "RelativeToolTip": "Views\\Home\\HotDeal.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-24T04:27:37.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CartController.cs",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Controllers\\CartController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwBMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T01:42:19.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Shared\\Components\\CartQuick\\Default.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\CartQuick\\Default.cshtml",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Shared\\Components\\CartQuick\\Default.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\CartQuick\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T15:04:57.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CheckoutController.cs",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Controllers\\CheckoutController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CheckoutController.cs",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Controllers\\CheckoutController.cs",
+              "RelativeToolTip": "Controllers\\CheckoutController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T13:16:21.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Data\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "Data\\OrderDetail.cs",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Data\\OrderDetail.cs",
+              "RelativeToolTip": "Data\\OrderDetail.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAmwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T13:14:14.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CartPanel.cshtml",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Shared\\Components\\Cart\\CartPanel.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\Cart\\CartPanel.cshtml",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Shared\\Components\\Cart\\CartPanel.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\Cart\\CartPanel.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T14:32:32.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Data\\Order.cs",
+              "RelativeDocumentMoniker": "Data\\Order.cs",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Data\\Order.cs",
+              "RelativeToolTip": "Data\\Order.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA6wB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T02:17:16.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "_AdminDashBoard.cshtml",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Shared\\_AdminDashBoard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_AdminDashBoard.cshtml",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Shared\\_AdminDashBoard.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_AdminDashBoard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIAAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-04T08:37:48.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACUAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-04T07:54:00.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\LoginViewModel.cs",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T07:51:13.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DashBoard.cshtml",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Home\\DashBoard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\DashBoard.cshtml",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Home\\DashBoard.cshtml",
+              "RelativeToolTip": "Views\\Home\\DashBoard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-04T08:25:37.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Account\\Profile.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Profile.cshtml",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Account\\Profile.cshtml",
+              "RelativeToolTip": "Views\\Account\\Profile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-04T08:52:18.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Account\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\AccessDenied.cshtml",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Account\\AccessDenied.cshtml",
+              "RelativeToolTip": "Views\\Account\\AccessDenied.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-04T08:21:47.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAADoAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T14:03:53.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T07:52:20.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-04T01:34:34.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Service\\AuthService.cs",
+              "RelativeDocumentMoniker": "Service\\AuthService.cs",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Service\\AuthService.cs",
+              "RelativeToolTip": "Service\\AuthService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T08:10:00.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Data\\User.cs",
+              "RelativeDocumentMoniker": "Data\\User.cs",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Data\\User.cs",
+              "RelativeToolTip": "Data\\User.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA6wCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T14:47:04.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Role.cs",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Data\\Role.cs",
+              "RelativeDocumentMoniker": "Data\\Role.cs",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Data\\Role.cs",
+              "RelativeToolTip": "Data\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T02:20:21.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ProductsVM.cs",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\ViewModels\\ProductsVM.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ProductsVM.cs",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\ViewModels\\ProductsVM.cs",
+              "RelativeToolTip": "ViewModels\\ProductsVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T02:46:41.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "_HotDealProduct.cshtml",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Shared\\_HotDealProduct.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_HotDealProduct.cshtml",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Shared\\_HotDealProduct.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_HotDealProduct.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-04T03:37:03.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CartSummaryViewModel.cs",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\ViewModels\\CartSummaryViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\CartSummaryViewModel.cs",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\ViewModels\\CartSummaryViewModel.cs",
+              "RelativeToolTip": "ViewModels\\CartSummaryViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T02:26:19.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "PaginatedList.cs",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Models\\PaginatedList.cs",
+              "RelativeDocumentMoniker": "Models\\PaginatedList.cs",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Models\\PaginatedList.cs",
+              "RelativeToolTip": "Models\\PaginatedList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T04:23:43.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "WebsiteContext.cs",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Data\\WebsiteContext.cs",
+              "RelativeDocumentMoniker": "Data\\WebsiteContext.cs",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Data\\WebsiteContext.cs",
+              "RelativeToolTip": "Data\\WebsiteContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T02:11:07.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-02T15:29:53.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "style.css",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\style.css",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "wwwroot\\css\\style.css",
+              "ViewState": "AgIAAIYIAAAAAAAAAIBZwI8IAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-02T15:24:08.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Shared\\Components\\Review\\Default.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\Review\\Default.cshtml",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Shared\\Components\\Review\\Default.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\Review\\Default.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAGUAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-24T14:01:39.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ReviewViewComponent.cs",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\ViewComponents\\ReviewViewComponent.cs",
+              "RelativeDocumentMoniker": "ViewComponents\\ReviewViewComponent.cs",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\ViewComponents\\ReviewViewComponent.cs",
+              "RelativeToolTip": "ViewComponents\\ReviewViewComponent.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T14:07:00.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CartViewComponent.cs",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\ViewComponents\\CartViewComponent.cs",
+              "RelativeDocumentMoniker": "ViewComponents\\CartViewComponent.cs",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\ViewComponents\\CartViewComponent.cs",
+              "RelativeToolTip": "ViewComponents\\CartViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T14:39:58.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "CartQuickViewComponent.cs",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\ViewComponents\\CartQuickViewComponent.cs",
+              "RelativeDocumentMoniker": "ViewComponents\\CartQuickViewComponent.cs",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\ViewComponents\\CartQuickViewComponent.cs",
+              "RelativeToolTip": "ViewComponents\\CartQuickViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T14:46:40.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\ViewModels\\CartItem.cs",
+              "RelativeDocumentMoniker": "ViewModels\\CartItem.cs",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\ViewModels\\CartItem.cs",
+              "RelativeToolTip": "ViewModels\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T13:55:44.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Contact.cshtml",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAIBZwBgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-24T06:34:35.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "PageNotFound.cshtml",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Home\\PageNotFound.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\PageNotFound.cshtml",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Views\\Home\\PageNotFound.cshtml",
+              "RelativeToolTip": "Views\\Home\\PageNotFound.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAB4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-24T06:54:38.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "MySetting.cs",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Helpers\\MySetting.cs",
+              "RelativeDocumentMoniker": "Helpers\\MySetting.cs",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Helpers\\MySetting.cs",
+              "RelativeToolTip": "Helpers\\MySetting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T13:59:09.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "SessionExtensions.cs",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Helpers\\SessionExtensions.cs",
+              "RelativeDocumentMoniker": "Helpers\\SessionExtensions.cs",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\Helpers\\SessionExtensions.cs",
+              "RelativeToolTip": "Helpers\\SessionExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T13:59:08.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "cart.html",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\wwwroot\\cart.html",
+              "RelativeDocumentMoniker": "wwwroot\\cart.html",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\wwwroot\\cart.html",
+              "RelativeToolTip": "wwwroot\\cart.html",
+              "ViewState": "AgIAAKwAAAAAAAAAAAAiwMkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-23T14:01:24.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "WebsiteTMDT",
+              "DocumentMoniker": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\WebsiteTMDT.csproj",
+              "RelativeDocumentMoniker": "WebsiteTMDT.csproj",
+              "ToolTip": "D:\\CMCU-HK5\\CN_Lap_Trinh_Web\\WebsiteTMDT\\WebsiteTMDT.csproj",
+              "RelativeToolTip": "WebsiteTMDT.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-23T13:46:48.193Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 89,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

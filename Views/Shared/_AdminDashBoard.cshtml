@@ -1,0 +1,181 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thống Kê Admin</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            background-color: #f4f4f4;
+        }
+
+        .sidebar {
+            width: 250px;
+            background-color: #343a40; /* Màu nền thanh bên */
+            color: white;
+            padding: 15px;
+            height: 100vh;
+        }
+
+            .sidebar h2 {
+                color: #dc3545; /* Màu đỏ */
+            }
+
+            .sidebar a {
+                color: white;
+                text-decoration: none;
+                display: block;
+                padding: 10px;
+                margin: 5px 0;
+                border-radius: 5px;
+                transition: background 0.3s;
+            }
+
+                .sidebar a:hover {
+                    background: #dc3545; /* Màu đỏ khi hover */
+                }
+
+        .submenu {
+            display: none; /* Ẩn các mục con theo mặc định */
+            margin-left: 15px;
+        }
+
+        .content {
+            flex-grow: 1;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #dc3545; /* Màu đỏ */
+        }
+
+        .dashboard-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .section {
+            margin: 20px 0;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 5px;
+        }
+
+            .section h2 {
+                margin-top: 0;
+                color: #dc3545; /* Màu đỏ */
+            }
+
+        .button {
+            padding: 10px 15px;
+            background: #dc3545; /* Màu đỏ */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+            .button:hover {
+                background: #c82333; /* Đậm hơn khi hover */
+            }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #dc3545; /* Màu đỏ */
+            color: white;
+        }
+
+        canvas {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .hidden {
+            display: none; /* Ẩn phần không cần thiết */
+        }
+    </style>
+</head>
+<body>
+
+    @RenderBody()
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        function toggleSubmenu(submenuId) {
+            const submenu = document.getElementById(submenuId);
+            const isVisible = submenu.style.display === 'block';
+            submenu.style.display = isVisible ? 'none' : 'block';
+        }
+
+        function showContent(contentId) {
+            const contents = document.querySelectorAll('.dashboard-container');
+            contents.forEach(content => {
+                content.classList.add('hidden'); // Ẩn tất cả các phần
+            });
+            document.getElementById(contentId).classList.remove('hidden'); // Hiện phần được chọn
+        }
+
+        // Dữ liệu biểu đồ khách ghé cửa hàng
+        const ctx = document.getElementById('customerChart').getContext('2d');
+        const customerChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ['Tuần 1', 'Tuần 2', 'Tuần 3', 'Tuần 4'],
+                datasets: [{
+                    label: 'Lượng Khách Ghé',
+                    data: [30, 50, 40, 70],
+                    backgroundColor: 'rgba(75, 192, 192, 0.6)',
+                    borderColor: 'rgba(75, 192, 192, 1)',
+                    borderWidth: 2,
+                    fill: true
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        title: {
+                            display: true,
+                            text: 'Số Lượng Khách'
+                        }
+                    },
+                    x: {
+                        title: {
+                            display: true,
+                            text: 'Thời Gian'
+                        }
+                    }
+                }
+            }
+        });
+
+        // Hiện nội dung trang chủ khi tải trang
+        window.onload = function() {
+            showContent('dashboard');
+        };
+    </script>
+
+</body>
+</html>

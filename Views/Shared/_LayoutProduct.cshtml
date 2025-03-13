@@ -1,0 +1,393 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="~/css/bootstrap.min.css" />
+
+	<!-- Slick -->
+	<link type="text/css" rel="stylesheet" href="~/css/slick.css" />
+	<link type="text/css" rel="stylesheet" href="~/css/slick-theme.css" />
+
+	<!-- nouislider -->
+	<link type="text/css" rel="stylesheet" href="~/css/nouislider.min.css" />
+
+	<!-- Font Awesome Icon -->
+	<link rel="stylesheet" href="~/css/font-awesome.min.css">
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="~/css/style.css" />
+
+	<style>
+		.dropdown-menu {
+			min-width: 150px;
+		}
+
+			.dropdown-menu li {
+				padding: 5px 10px;
+			}
+
+		::-webkit-scrollbar {
+			width: 12px;
+			height: 12px;
+		}
+
+		::-webkit-scrollbar-thumb {
+			background-color: red;
+			border-radius: 12px;
+		}
+
+			::-webkit-scrollbar-thumb:hover {
+				background-color: #EE2C2C;
+			}
+
+		::-webkit-scrollbar-track {
+			background: #f1f1f1;
+			border-radius: 12px;
+		}
+
+		::-webkit-scrollbar-horizontal {
+			height: 10px;
+		}
+
+		::-webkit-scrollbar-thumb:horizontal {
+			background-color: red;
+		}
+
+			::-webkit-scrollbar-thumb:horizontal:hover {
+				background-color: red;
+			}
+	</style>
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+    <div>
+		<!-- HEADER -->
+		<header>
+			<!-- TOP HEADER -->
+			<div id="top-header">
+				<div class="container">
+					<ul class="header-links pull-left">
+						<li><a href="#"><i class="fa fa-phone"></i> +999999999</a></li>
+						<li><a href="#"><i class="fa fa-envelope-o"></i> email@email.com</a></li>
+						<li><a href="#"><i class="fa fa-map-marker"></i> Ha Noi</a></li>
+					</ul>
+					<ul class="header-links pull-right">
+						<li><a href="#"><i class="fa fa-dollar"></i> USD</a></li>
+
+						@if (User.Identity.IsAuthenticated)
+						{
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+									<i class="fa fa-user-o"></i> @User.Identity.Name
+									<b class="caret"></b>
+								</a>
+								<ul class="dropdown-menu">
+									<li><a asp-controller="Account" asp-action="Profile">Thông tin cá nhân</a></li>
+									<li>
+										<form asp-controller="Account" asp-action="Logout" method="post" id="logoutForm">
+											<button type="submit" class="btn btn-link" >
+												Đăng xuất
+											</button>
+										</form>
+									</li>
+									<li><a asp-action="EditProfile" asp-controller="Account">Chỉnh Sửa Thông Tin</a></li>
+								</ul>
+							</li>
+						}
+						else
+						{
+							<li>
+								<a asp-controller="Account" asp-action="Login">
+									<i class="fa fa-user-o"></i> Đăng Nhập
+								</a>
+							</li>
+						}
+					</ul>
+				</div>
+			</div>
+			<!-- /TOP HEADER -->
+			<!-- MAIN HEADER -->
+			<div id="header">
+				<!-- container -->
+				<div class="container">
+					<!-- row -->
+					<div class="row">
+						<!-- LOGO -->
+						<div class="col-md-3">
+							<div class="header-logo">
+								<a href="#" class="logo">
+									<img src="./img/logo.png" alt="">
+								</a>
+							</div>
+						</div>
+						<!-- /LOGO -->
+						<!-- SEARCH BAR -->
+						<div class="col-md-6">
+							<div class="header-search">
+								@await Html.PartialAsync("_SearchPanel")
+							</div>
+						</div>
+						<!-- /SEARCH BAR -->
+						<!-- ACCOUNT -->
+						<div class="col-md-3 clearfix">
+							<div class="header-ctn">
+								<!-- Wishlist -->
+								<div>
+									<a href="#" id="wishlist-btn">
+										<i class="fa fa-heart-o"></i>
+										<span>Yêu Thích</span>
+										<div class="qty" id="wishlist-qty">0</div>
+									</a>
+								</div>
+								<!-- /Wishlist -->
+
+								<!-- Cart -->
+								@await Component.InvokeAsync("CartQuick")
+
+								<!-- /Cart -->
+
+								<!-- Menu Toogle -->
+								<div class="menu-toggle">
+									<a href="#">
+										<i class="fa fa-bars"></i>
+										<span>Menu</span>
+									</a>
+								</div>
+								<!-- /Menu Toogle -->
+							</div>
+						</div>
+						<!-- /ACCOUNT -->
+					</div>
+					<!-- row -->
+				</div>
+				<!-- container -->
+			</div>
+			<!-- /MAIN HEADER -->
+		</header>
+		<!-- /HEADER -->
+
+		<!-- NAVIGATION -->
+		<nav id="navigation">
+			<!-- container -->
+			<div class="container">
+				<!-- responsive-nav -->
+				<div id="responsive-nav">
+					<!-- NAV -->
+					<ul class="main-nav nav navbar-nav">
+						<li class="active"><a asp-controller="Home" asp-action="Index">Trang Chủ</a></li>
+						<li><a asp-controller="Home" asp-action="HotDeal">Ưu Đãi</a></li>
+						<li><a asp-controller="Product" asp-action="Index">Danh Mục</a></li>
+                        <li><a asp-controller="Home" asp-action="Contact">Liên Hệ</a></li>
+						@if (User.IsInRole("Admin"))
+						{
+							<li><a asp-action="DashBoard" asp-controller="Home">DashBoard</a></li>
+						}
+					</ul>
+					<!-- /NAV -->
+				</div>
+				<!-- /responsive-nav -->
+			</div>
+			<!-- /container -->
+		</nav>
+		<!-- /NAVIGATION -->
+
+        @RenderBody()
+
+        @await Html.PartialAsync("_Footer")
+    </div>
+
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			// Lấy URL hiện tại
+			let currentLocation = window.location.pathname;
+
+			// Lấy tất cả các mục menu
+			let menuItems = document.querySelectorAll(".main-nav li");
+
+			menuItems.forEach(item => {
+				let link = item.querySelector("a");
+				if (link && link.getAttribute("href") && currentLocation.includes(link.getAttribute("href"))) {
+					// Xóa class "active" khỏi tất cả menu
+					menuItems.forEach(i => i.classList.remove("active"));
+					// Thêm class "active" vào mục phù hợp
+					item.classList.add("active");
+				}
+			});
+		});
+	</script>
+
+	<script>
+		$(document).ready(function(){
+			$("#searchButton").click(function(){
+				let url = "/Product/Search?query=" + $("#searchText").val();
+				window.location.href = url;
+			});
+		});
+	</script>
+
+	<script>
+		$("#contact-form").submit(function (e) {
+			e.preventDefault();
+			alert("Tin nhắn của bạn đã được gửi!");
+		});
+	</script>
+
+	<!-- JavaScript Countdown -->
+	<script>
+		// Set thời gian kết thúc (ví dụ: 2 ngày sau thời điểm tải trang)
+		const countdownDate = new Date();
+		countdownDate.setDate(countdownDate.getDate() + 2);
+
+		// Hàm cập nhật đồng hồ đếm ngược
+		function updateCountdown() {
+			const now = new Date().getTime();
+			const timeLeft = countdownDate - now;
+
+			if (timeLeft > 0) {
+				const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+				const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+				const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+				const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+
+				// Cập nhật giá trị vào HTML
+				document.getElementById("days").textContent = days.toString().padStart(2, '0');
+				document.getElementById("hours").textContent = hours.toString().padStart(2, '0');
+				document.getElementById("minutes").textContent = minutes.toString().padStart(2, '0');
+				document.getElementById("seconds").textContent = seconds.toString().padStart(2, '0');
+			} else {
+				// Nếu hết thời gian, hiển thị thông báo hết hạn
+				document.getElementById("hot-deal").innerHTML = "<h2>Deal has expired!</h2>";
+				clearInterval(countdownInterval);
+			}
+		}
+
+		// Cập nhật mỗi giây
+		const countdownInterval = setInterval(updateCountdown, 1000);
+		updateCountdown(); // Chạy ngay lần đầu khi tải trang
+	</script>
+
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			function updateCartTotal() {
+				let total = 0;
+				document.querySelectorAll("#cart-table tr").forEach(row => {
+					const totalCell = row.querySelector(".total");
+					if (totalCell) {
+						total += parseFloat(totalCell.textContent);
+					}
+				});
+				document.getElementById("cart-total").textContent = total.toFixed(2);
+			}
+
+			function updateQuantity(id, quantity) {
+				fetch('/Cart/UpdateQuantity', {
+					method: 'POST',
+					headers: { 'Content-Type': 'application/json' },
+					body: JSON.stringify({ id: id, quantity: quantity })
+				})
+				.then(response => response.json())
+				.then(data => {
+					if (data.success) {
+						document.getElementById("cart-total").textContent = data.totalPrice.toFixed(2);
+					}
+				});
+			}
+
+			document.querySelectorAll(".increase").forEach(button => {
+				button.addEventListener("click", function () {
+					const row = this.closest("tr");
+					const input = row.querySelector(".quantity-input");
+					let quantity = parseInt(input.value) + 1;
+					input.value = quantity;
+
+					const id = row.dataset.id;
+					const price = parseFloat(row.querySelector(".price").dataset.price);
+					row.querySelector(".total").textContent = (price * quantity).toFixed(2);
+
+					updateQuantity(id, quantity);
+					updateCartTotal();
+				});
+			});
+
+			document.querySelectorAll(".decrease").forEach(button => {
+				button.addEventListener("click", function () {
+					const row = this.closest("tr");
+					const input = row.querySelector(".quantity-input");
+					let quantity = parseInt(input.value);
+					if (quantity > 1) {
+						quantity -= 1;
+						input.value = quantity;
+
+						const id = row.dataset.id;
+						const price = parseFloat(row.querySelector(".price").dataset.price);
+						row.querySelector(".total").textContent = (price * quantity).toFixed(2);
+
+						updateQuantity(id, quantity);
+						updateCartTotal();
+					}
+				});
+			});
+
+			document.querySelectorAll(".quantity-input").forEach(input => {
+				input.addEventListener("change", function () {
+					const row = this.closest("tr");
+					const price = parseFloat(row.querySelector(".price").dataset.price);
+					let quantity = parseInt(this.value);
+
+					if (quantity < 1 || isNaN(quantity)) {
+						this.value = 1;
+						quantity = 1;
+					}
+
+					const id = row.dataset.id;
+					row.querySelector(".total").textContent = (price * quantity).toFixed(2);
+
+					updateQuantity(id, quantity);
+					updateCartTotal();
+				});
+			});
+		});
+	</script>
+
+	<script>
+		document.getElementById("sortBy").addEventListener("change", function () {
+			const sortBy = this.value;
+			const pageSize = document.getElementById("pageSize").value;
+			window.location.href = "@Url.Action("Index")?loai=@ViewBag.Loai&page=1&sortBy=" + sortBy + "&pageSize=" + pageSize;
+		});
+
+		document.getElementById("pageSize").addEventListener("change", function () {
+			const sortBy = document.getElementById("sortBy").value;
+			const pageSize = this.value;
+			window.location.href = "@Url.Action("Index")?loai=@ViewBag.Loai&page=1&sortBy=" + sortBy + "&pageSize=" + pageSize;
+		});
+	</script>
+
+	<!-- jQuery Plugins -->
+	<script src="~/js/jquery.min.js"></script>
+	<script src="~/js/bootstrap.min.js"></script>
+	<script src="~/js/slick.min.js"></script>
+	<script src="~/js/nouislider.min.js"></script>
+	<script src="~/js/jquery.zoom.min.js"></script>
+	<script src="~/js/main.js"></script>
+	@* <script src="~/cart.js"></script> *@
+	<script src="~/Wishlist.js"></script>
+	@RenderSection("Scripts", required: false)
+</body>
+</html>

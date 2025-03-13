@@ -1,0 +1,41 @@
+﻿@model WebsiteTMDT.Data.User
+@{
+    ViewData["Title"] = "Chỉnh sửa thông tin cá nhân";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+@if (ViewBag.Success != null)
+{
+    <div class="alert alert-success">@ViewBag.Success</div>
+}
+
+<form asp-action="EditProfile" method="post" class="form-container">
+    <h2>Chỉnh sửa thông tin cá nhân</h2>
+    <div class="form-group">
+        <label for="fullName">Họ và tên</label>
+        <input type="text" class="form-control" id="fullName" name="fullName" value="@Model.FullName" required />
+    </div>
+
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" name="email" value="@Model.Email" required />
+    </div>
+
+    <div class="form-group">
+        <label for="phone">Số điện thoại</label>
+        <input type="text" class="form-control" id="phone" name="phone" value="@Model.Phone" required />
+    </div>
+
+    <div class="form-group">
+        <label for="address">Địa chỉ</label>
+        <input type="text" class="form-control" id="address" name="address" value="@Model.Address" required />
+    </div>
+
+    <div class="form-group">
+        <label for="newPassword">Mật khẩu mới (để trống nếu không đổi)</label>
+        <input type="password" class="form-control" id="newPassword" name="newPassword" />
+    </div>
+
+    <button type="submit" class="button">Cập nhật</button>
+</form>
